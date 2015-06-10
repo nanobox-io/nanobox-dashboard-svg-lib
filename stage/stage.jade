@@ -1,0 +1,44 @@
+doctype html
+html(lang="en")
+  
+  head
+    title Nanobox SVG
+
+    link(href="stage/css/stage.css", rel="stylesheet")
+    //- build:css nanobox-dashboard.css
+    link(href="css/nanobox-dashboard.css", rel="stylesheet")
+    //- endbuild
+
+  body
+    .icons-front-site
+      img.shadow-icon( data-src="logo-horizontal" )
+      img.shadow-icon( data-src="xbtn" )
+      img.shadow-icon( data-src="small-add-btn" )
+      img.shadow-icon( data-src="add-btn" )
+      img.shadow-icon( data-src="engine-icon" )
+      img.shadow-icon( data-src="circle-add-btn" )
+      img.shadow-icon( data-src="search" )
+      img.shadow-icon( data-src="star" )
+      img.shadow-icon( data-src="check" )
+      img.shadow-icon( data-src="up-arrow" )
+      img.shadow-icon( data-src="down-arrow" )
+      img.shadow-icon( data-src="left-arrow" )
+      img.shadow-icon( data-src="right-arrow" )
+      img.shadow-icon( data-src="mail" )
+
+
+    //- build:js js/libs.js
+    script(src="bower-libs/jquery/dist/jquery.js")
+    script(src="bower-libs/jade/runtime.js")
+    script(src="bower-libs/shadow-icons/rel/app.js")
+    //- endbuild
+
+    //- build:js js/nanobox-dashboard.js
+    script(src="js/nanobox-dashboard.js")
+    //- endbuild
+    
+    script(src="stage/js/init.js")
+    
+    //- build:remove 
+    script(src="http://localhost:35729/livereload.js")
+    //- endbuild
