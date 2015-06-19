@@ -1,4 +1,4 @@
-![header](http://shots.delorum.com/client/view/Screen%20Shot%202015-06-10%20at%2010.00.56%20AM.png)
+![header](http://nano-assets.gopagoda.io/readme-headers/nanobox-dashboard-svg-lib.png)
 
 ## Installation
 ```
