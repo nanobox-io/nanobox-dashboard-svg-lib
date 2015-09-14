@@ -1,6 +1,6 @@
 {
   "name": "nanobox-dashboard-svg-lib",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "dependencies": {
     "shadow-icons": "git@bitbucket.org:pagodabox-js-libs/shadow-icons-library.git"
   },
