@@ -3,5 +3,5 @@ shadowIcons = new pxicons.ShadowIcons()
 # OPTION 1 :
 # Use the javascript formatted string found in pagoda-svg-icons.js
 console.time "Time Test"
-shadowIconsInstance.svgReplaceWithString pxSvgIconString, $("body")
+castShadows $("body")
 console.timeEnd "Time Test"
