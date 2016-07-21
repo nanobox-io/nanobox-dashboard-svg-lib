@@ -1,6 +1,6 @@
 {
   "name": "nanobox-dashboard-svg-lib",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "dependencies": {
     "shadow-icons": "tolmark12/shadow-icons-js"
   },
